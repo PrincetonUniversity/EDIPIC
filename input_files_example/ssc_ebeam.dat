@@ -1,0 +1,18 @@
+********************** PERIODICITY OF PARTICLES MOTION **********************
+---           0 = turned off                                              ---
+-------d----- 1 = turned on -------------------------------------------------
+       1
+****************************** BEAM IN PLASMA *******************************
+---           0 = turned off                                              ---
+---           1 = monoenergetic beam                                      ---
+-------d----- 2 = warm beam -------------------------------------------------
+       0
+--dddddd.ddd- Beam appears at this moment, [ns] (timesteps if < 0) ----------
+      -1.000
+============================= BEAM PARAMETERS ===============================
+--dddddd.ddd- Energy, [eV] --------------------------------------------------
+      40.000
+--dddddd.ddd- Temperature (for warm beams only), [eV] ----------------------
+       4.000
+------d.dddd- Relative density (0 < alfa < 1) -------------------------------
+      0.0010

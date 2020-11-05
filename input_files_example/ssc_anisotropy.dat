@@ -1,0 +1,14 @@
+============== Parameters of anisotropic electron distribution ==============
+--dddddd.ddd- X-temperature (eV) --------------------------------------------
+       0.200
+--dddddd.ddd- Z-temperature (eV) --------------------------------------------
+       0.200
+------dd----- Maximal velocity for initial distribution (in V_therm_e) ------
+       3
+--#d.dddE#dd- Plasma density (m^-3), does not affect scaling ----------------
+   1.000E+17
+-------d----- Account for ExB drift due to external fields (1/0=Yes/No) -----
+       0
+=============== Parameters of ion distribution ==============================
+-------d----- Account for ExB drift due to external fields (1/0=Yes/No) -----
+       0

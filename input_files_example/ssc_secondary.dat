@@ -1,0 +1,95 @@
+**************************** LEFT PLASMA BOUNDARY ***************************
+--- Refluxing of both electrons and ions:                                 ---
+---           0 = off, solid wall                                         ---
+---           1 = thermalization with bulk Te and Ti                      ---
+-------d----- 2 = specular reflection ---------------------------------------
+       0
+--- Additional injection of electron-ion pairs (requires 1 or 2 above):   ---
+---           0 = off                                                     ---
+---           1 = additional flux equals to ion flux to the right wall    ---
+-------d----- 2 = constant (Maxwellian source with Te and Ti of the bulk) ---
+       0     
+***************************** ELASTIC REFLECTION ****************************
+--- Select the model:                                                     ---
+---           0 = turned off                                              ---
+---           1 = constant, nonzero for E_min < energy < E_max            ---
+-------d----- 2 = function 1-1 of incident electron energy ------------------
+       0 2
+================== ELASTIC REFLECTION, TYPE OF REFLECTION ===================
+--- Select the type:                                                      ---
+---           0 = specular                                                ---
+-------d----- 1 = random                                                  ---
+       1
+====================== ELASTIC, MODEL 1, PARAMETERS =========================
+-------d.ddd- Value of the coefficient (from 0 to 1) ------------------------
+       1.000
+--dddddd.ddd- LOWER energy boundary E_min, [eV] -----------------------------
+       0.000
+--dddddd.ddd- UPPER energy boundary E_max, [eV] -----------------------------
+   10000.000
+====================== ELASTIC, MODEL 2, PARAMETERS =========================
+--dddddd.ddd- Threshold energy, [eV] ----------------------------------------
+       2.000
+--dddddd.ddd- Maximal yield energy, [eV] ------------------------------------
+      10.000
+-------d.ddd- Maximal yield at low energies, [eV] ---------------------------
+       0.550
+--dddddd.ddd- Half-width of decaying part after the maximum, [eV] -----------
+      14.000
+-------d.ddd- Yield, high energy (fraction of total yield, 0 if not used) ---
+       0.030
+*************************** INELASTIC BACKSCATTERING ************************
+--- Select the model:                                                     ---
+---           0 = turned off                                              ---
+---           1 = constant, nonzero for E_min < energy < E_max            ---
+-------d----- 2 = function 2-1 of incident electron energy ------------------
+       0 2
+====================== INELASTIC, MODEL 1, PARAMETERS =======================
+-------d.ddd- Value of the coefficient (from 0 to 1) ------------------------
+       1.000
+--dddddd.ddd- LOWER energy boundary E_min, [eV] -----------------------------
+       0.000
+--dddddd.ddd- UPPER energy boundary E_max, [eV] -----------------------------
+   10000.000
+====================== INELASTIC, MODEL 2, PARAMETERS =======================
+-------d.ddd- Yield (fraction of total yield, 0 if not used) ----------------
+       0.070
+************************** TRUE SECONDARY EMISSION **************************
+--- Select the model:                                                     ---
+---           0 = turned off                                              ---
+---           1 = constant, nonzero for E_min < energy < E_max            ---
+-------d----- 2 = function 3-1 of incident electron energy ------------------
+       0 2
+================= TRUE SECONDARY, MODEL 1, PARAMETERS =======================
+-------d.ddd- Value of the coefficient --------------------------------------
+       0.300
+--dddddd.ddd- LOWER energy boundary E_min, [eV] -----------------------------
+       4.000
+--dddddd.ddd- UPPER energy boundary E_max, [eV] -----------------------------
+   10000.000
+============= TRUE SECONDARY, MODEL 2 (AND CLASSIC), PARAMETERS =============
+--dddddd.ddd- Threshold energy, [eV] ----------------------------------------
+      13.000
+--dddddd.ddd- Maximal emission energy, [eV] ---------------------------------
+     500.000
+------dd.ddd- Maximal emission coefficient (normal to the surface) ----------
+       3.000
+-------d.ddd- Smoothness factor (0 = very rough, 2 = polished) --------------
+       1.000
+============= PARAMETERS OF INJECTED TRUE SECONDARY ELECTRONS ===============
+--dddddd.ddd- Temperature, [eV] ---------------------------------------------
+       2.000
+**************************** INTERACTION OF IONS ****************************
+--- Select the model:                                                     ---
+---           0 = 100% adsorption                                         ---
+---           1 = 100% specular reflection                                ---
+-------d----- 2 = 100% ion adsorption, secondary electrons may be emitted ---
+       0
+============ ION INDUCED SECONDARY ELECTRON EMISSION, PARAMETERS ============
+-------d.ddd- Value of the coefficient (<1) ---------------------------------
+       0.300
+--dddddd.ddd- Minimal ion energy to start the emission, [eV] ----------------
+     200.000
+--dddddd.ddd- Temperature of injected secondary electron, [eV] --------------
+       1.000
+

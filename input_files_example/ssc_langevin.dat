@@ -1,0 +1,9 @@
+************************ COULOMB COLLISIONS CONTROL *************************
+-------d--- Langevin model {off / e-e / e-e and e-i} = {0/1/2} --------------
+       0
+----dddd--- Number of timesteps to skip between e-e collisions (>=0) --------
+      50
+----dddd--- Number of additional cells to calculate Langevin coeffs (>=0) ---
+      30
+------dd--- Maximal velocity for EVDF (in units of scale thermal velocity) --
+       3

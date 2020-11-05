@@ -1,0 +1,60 @@
+============================ SYSTEM CONFIGURATION ===========================
+-------d----- BC: Left wall potential is fixed/floating/ext.circuit {0/1/2}--
+       0
+--dddddd.ddd- Resistor in the external circuit (ohm) ------------------------
+      10.000
+--dddddd.ddd- Electrode area (cm^2) -----------------------------------------
+     400.000
+--dddddd.ddd- External z-electric field parallel to walls (V/m) -------------
+       0.000
+--dddddd.ddd- External x-magnetic field normal to walls (Gauss) -------------
+       0.000
+--dddddd.ddd- External y-magnetic field parallel to walls (Gauss) -----------
+       0.000
+--dddddd.ddd- Left wall potential/battery voltage (V) -----------------------
+       0.000
+--dddd.ddddd- Plasma layer width (m, beam wavelengths if negative) ----------
+     0.00600
+--dddddd.ddd- Ion mass (a.m.u., m_e if negative) ----------------------------
+       1.000
+--dddddd.ddd- Ion temperature (eV) ------------------------------------------
+       0.030
+-------d----- Ions sense the external MAGNETIC field (1/0=Yes/No) -----------
+       0
+-------d----- Ions sense the external ELECTRIC field (1/0=Yes/No) -----------
+       0
+-------d----- Thermalize electron if Z-shift exceeds limit (1/0=Yes/No) -----
+       0
+--dddd.ddddd- Limit for the electron Z-shift (m) ----------------------------
+     0.01000
+-------d----- Thermalize ion if Z-shift exceeds limit (1/0=Yes/No) ----------
+       0
+--dddd.ddddd- Limit for the ion Z-shift (m) ---------------------------------
+     0.01000
+======================= PARAMETERS DEFINING SCALE VALUES ====================
+--#d.dddE#dd- Plasma density (m^-3) -----------------------------------------
+   1.000E+17
+--dddddd.ddd- Electron temperature (eV) -------------------------------------
+       0.200
+--dddddd----- Number of macroparticles per cell -----------------------------
+  100000
+--dddddd----- Number of cells per Debye length ------------------------------
+       5
+------dd----- Maximal expected velocity (in V_therm_e) ----------------------
+      10
+--dddddd----- Number of velocity boxes per unit of V_therm ------------------
+      20
+============================ SIMULATION CONTROL =============================
+--dddddd.ddd- Duration of simulation (ns) -----------------------------------
+       1.000
+--dddddd----- Step for saving checkpoints (timesteps, skip if <=0) ----------
+  900000
+--dddddd----- Seed for random numbers generator -----------------------------
+  123456
+------------- Method of initialization --------------------------------------
+--            0 = start a new run, ordinary                                --
+--            1 = continue the old run, start at the last checkpoint       --
+-------d----- 2 = start a new run, take particles from the checkpoint -------
+       0
+---dddddddd-- Time step when the checkpoint to be used was created ----------
+       1000

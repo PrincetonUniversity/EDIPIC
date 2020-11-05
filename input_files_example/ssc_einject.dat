@@ -1,0 +1,28 @@
+****************** LEFT WALL, CONSTANT ELECTRON INJECTION *******************
+---           0 = turned off                                              ---
+---           1 = monoenergetic beam                                      ---
+-------d----- 2 = warm maxwellian source ------------------------------------
+       0
+--dddddd.ddd- Start injection at this moment, [ns] (timesteps if < 0) -------
+      20.000
+====================== ELECTRON INJECTION, PARAMETERS =======================
+--dddddd.ddd- Energy (cold) / Temperature (warm), [eV] ----------------------
+       1.000
+--dddddd.ddd- Injection current [A/m^2] -------------------------------------
+       0.000
+****************** RIGHT WALL, CONSTANT ELECTRON INJECTION ******************
+---           0 = turned off                                              ---
+---           1 = monoenergetic beam                                      ---
+-------d----- 2 = warm maxwellian source ------------------------------------
+       0
+--dddddd.ddd- Start injection at this moment, [ns] (timesteps if < 0) -------
+      10.000
+====================== ELECTRON INJECTION, PARAMETERS =======================
+--dddddd.ddd- Energy (cold) / Temperature (warm), [eV] ----------------------
+       1.000
+--dddddd.ddd- Injection current [A/m^2] -------------------------------------
+       1.000   1000.000
+******************************* SMART TAGS **********************************
+---           0 = turned off (changing velocity sign does not change tag) ---
+-------d----- 1 = turned on -------------------------------------------------
+       0 1 

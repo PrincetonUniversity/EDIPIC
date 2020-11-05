@@ -1,0 +1,39 @@
+================= NEUTRAL COMPONENT PARAMETERS ====================
+--dddddd.ddd- Mass (a.m.u.) ---------------------------------------
+     130.000
+--#d.dddE#dd- Density (m^-3) --------------------------------------
+   2.000E+21 21 0.800E+20   1.100E+20   was 1e20 1.5e20, 3e20
+--dddddd.ddd- Temperature (eV) ------------------------------------
+       0.026
+============ ELECTRON - NEUTRAL COLLISIONS, ACTIVATION ============
+-------d----- Elastic-1 (1 = yes, 0 = no) -------------------------
+       0
+-------d----- Excitation-1 (1 = yes, 0 = no) ----------------------
+       0
+-------d----- Ionization-1 (1 = yes, 0 = no) ----------------------
+       0
+============== ELECTRON - NEUTRAL COLLISIONS, CONTROL =============
+--dddddd.ddd- Maximal electron energy (eV), default if negative ---
+   10000.000
+--dddddd----- Number of energy values (>0) ------------------------
+   20001
+========== ELECTRON - TURBULENCE, ACTIVATION and CONTROL ==========
+-------d----- Turbulence-1 (1 = yes, 0 = no) ----------------------
+       0
+--#d.dddE#dd- Frequency, model-1 (s^-1) ---------------------------
+   0.146E+07
+============== ION - NEUTRAL COLLISIONS, ACTIVATION ===============
+-------d----- Elastic-1 (1 = yes, 0 = no) -------------------------
+       0
+-------d----- Charge exchange-1 (1 = yes, 0 = no) -----------------
+       0
+================ ION - NEUTRAL COLLISIONS, CONTROL ================
+--dddddd.ddd- Maximal ion energy (eV), default if negative --------
+      -1.000
+--dddddd----- Number of energy values (>0) ------------------------
+     101
+============ ION - TURBULENCE, ACTIVATION and CONTROL =============
+-------d----- Turbulence-1 (1 = yes, 0 = no) ----------------------
+       0
+--#d.dddE#dd- Frequency, model-1 (s^-1) ---------------------------
+   0.000E+00

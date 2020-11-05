@@ -1,0 +1,41 @@
+********************* TIME DEPENDENCIES CREATION CONTROL ********************
+--dddddd----- Step for saving (timesteps >0, plasma periods <0) -------------
+       1
+--dddddd----- Start collecting data at (timesteps >0, plasma periods <0) ----
+       1
+--dddddd----- Average during (timesteps >0, plasma periods <0 ) -------------
+       1
+--dddddd----- Skip periods of averaging between text outputs (>=0) ----------
+       5
+-----ddd----- Number of probes ( no probes if <= 0 ) ------------------------
+       5
+--dddddd.ddd- Probe coordinates (node number if>0 or millimeters if<0) ------
+      -1.000
+      -2.000
+      -3.000
+      -4.000
+      -5.000
+************************ SNAPSHOTS CREATION CONTROL *************************
+------dd----- Number of groups of snapshots ( >= 0 )-------------------------
+       1
+----------- start (ns) ---------- finish (ns) ---------- number -------------
+------------dddddd.ddd------------dddddd.ddd--------------dddd---------------
+                 0.000                 1.000                 3
+********************** PHASE PLANES CREATION CONTROL ************************
+-------d----- Create phase planes ? (1/0) -----------------------------------
+       0
+-ddd-ddd-ddd-ddd--- Number of particles to skip (bulk/left/right/ion, >=0) --
+  50   0   0  50
+************* VELOCITY DISTRIBUTION FUNCTIONS CREATION CONTROL **************
+--dddddd.ddd- Maximal x-velocity for e-v_x-distribution (in V_therm_e) ------
+       4.000
+--dddddd.ddd- Maximal y,z-velocity for e-v_y,z-distribution (in V_therm_e) --
+       4.000
+------dd----- Number of breakpoints (no evdfs if<0, all system used if 0) ---
+       5
+--dddddd.ddd- Breakpoints (ascend., node number if>0 or millimeters if <0) --
+      -1.000
+      -2.000
+      -3.000
+      -4.000
+      -5.000
