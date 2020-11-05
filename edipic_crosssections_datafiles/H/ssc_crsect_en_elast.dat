@@ -1,0 +1,44 @@
+    26 
+        0.00    8.177E-19   36      [me]
+        0.50    8.177E-19   36      [2]
+        1.00    2.559E-19   29      [2]
+        1.50    1.942E-19   22      [2]
+        2.00    1.677E-19   19      [2]
+        2.50    1.412E-19   16      [2]
+        3.00    1.280E-19   14.5    [2]
+        3.50    1.147E-19   13      [2]
+        4.00    9.708E-20   11      [2]
+        4.50    8.825E-20   10      [2]
+        5.00    8.384E-20    9.5    [2]
+        6.00    7.060E-20    8.0    [2]
+        7.00    6.178E-20    7.0    [2]
+        8.00    5.472E-20    6.2    [2]
+        9.00    5.119e-20    5.8    [2]
+       10.00    4.854e-20    5.5    [2]
+       11.00    4.413e-20    5.0    [2]
+       12.00    4.060e-20    4.6    [2]
+       13.00    3.795e-20    4.3    [2]
+       20.00    1.765e-20    2.0    [1]
+       50.00    7.325e-21    0.83   [1]
+       80.00    4.677e-21    0.53   [1]
+      100.00    3.795e-21    0.43   [1]
+      200.00    1.942e-21    0.22   [1]
+      400.00    9.708e-22    0.11   [me]
+      800.00    4.854e-22    0.055  [me]
+
+xxxxNNNNN.NNxxx+N.NNNe+NN
+
+# elastic scattering cross sections in atomic hydrogen (H+)
+# format 4x,f8.2,3x,e10.3
+# column # 1 - primary electron energy [eV]
+# column # 2 - cross-section, rounded [m^2]
+# column # 3 - cross-section in units of pi a_0^2=8.825e-21 m^2 (not used by the code)
+# column # 4 - reference to the source of data (not used by the code)
+# line # 1 - number of cross-section values to read
+# format 2x,i4
+# from 
+# [1] K.C.Mathur, "Elastic scattering of electrons with hydrogen atoms using the polarized Glauber approximation"
+#     Phys. Rev. A, vol.9, pp.2120-1224, 1974.
+# [2] R.T.Brackmann, Wade L. Fite, and Roy H. Neynaber, "Collisions of Electrons with Hydrogen Atoms. III. Elastic Scattering"
+#     Phys. Rev., vol.112, pp.1157-1161, 1958. {Fig.3}
+# [me] I added these lines to fill gaps at low/high energies
