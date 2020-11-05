@@ -1,0 +1,63 @@
+    45
+        0.000   1.760E-18
+        0.010   1.170E-18  
+        0.020   9.520E-19  
+        0.030   8.020E-19 
+        0.040   6.920E-19  
+        0.050   6.060E-19 
+        0.070   4.800E-19
+        0.090   3.920E-19
+        0.110   3.260E-19
+        0.150   2.350E-19
+        0.200   1.650E-19
+        0.250   1.200E-19 
+        0.300   8.960E-20 
+        0.400   5.260E-20 
+        0.500   3.290E-20 
+        0.600   2.250E-20 
+        0.700   1.740E-20 
+        0.800   1.610E-20 
+        0.900   1.740E-20
+        1.000   1.850E-20
+        1.200   3.120E-20 
+        1.500   5.470E-20
+        1.750   7.300E-20
+        2.000   1.100E-19 
+        2.630   1.740E-19
+        3.000   2.680E-19 
+        3.880   3.440E-19
+        4.880   4.290E-19
+        5.880   4.580E-19 
+        7.000   4.870E-19
+        8.000   4.610E-19
+        9.000   4.380E-19
+        9.920   4.030E-19
+       14.880   3.560E-19
+       19.880   2.920E-19
+       29.880   1.340E-19
+       49.880   7.670E-20
+       59.750   6.600E-20
+       63.000   6.490E-20
+       80.000   6.210E-20 
+      100.000   5.210E-20 
+      200.000   4.100E-20
+      300.000   3.850E-20 
+      500.000   3.350E-20  
+     1000.000   2.550E-20  
+
+xxxxNNNNN.NNNxx+N.NNNe+NN   
+    
+The total cross-section of elastic collisions for electrons in xenon
+column # 1 - energy, [eV]
+column # 2 - cross-section, [m^2]
+line # 1 - number of cross-section values to read
+
+Compilation with averaging from:
+
+ 1. [R.P.McEachran and A.D.Stauffer, J.Phys.B: At.Mol.Phys., v.20, 3483 (1987)]            for  0.01 eV --   10.00 eV
+ 2. [D.F.Register, L.Vuskovic and S.Trajmar, J.Phys.B: At.Mol.Phys., v.19, 1685 (1986)]    for  1.00 eV --  100.00 eV
+ 3. [M.Hayashi, J.Phys.D: Appl.Phys., v.16, 581 (1983)]                                    for 10.00 eV -- 1000.00 eV
+
+Note, the total cross sections for elastic collisions are different (usually several times higher)
+from the momentum transfer cross sections.
+       
