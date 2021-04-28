@@ -7,3 +7,7 @@ mpif90 -o edipic1d.out par*f90 WELL19937a_new.o
 To run, copy the executable file and the input data files (ssc_*dat, inluding the cross sections for the selected ion species) into some directory, edit the input data files as necessary (note that the input is formatted, so one has to follow patterns provided in corresponding description lines), then do for example:
 
 mpirun -np 8 ./edipic1d.out > output.txt &
+
+
+
+The developer grants to the Government, and others acting on its behalf, a nonexclusive, paid-up, irrevocable, world-wide license in such copyrighted data to reproduce, prepare derivative works, distribute copies to the public, and perform publicly and display publicly, by or on behalf of the Government.
